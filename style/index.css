@@ -1,0 +1,14 @@
+#themainheader{
+ color: rgb(212, 30, 30);   
+font-size: 60px;
+}
+table ,th ,td {
+    font-size: 20px;
+width: 50%;
+border:1px solid black;
+border-collapse:collapse;
+background-color: silver;
+margin-left: 380px;
+margin-top: 50px;
+}
+
