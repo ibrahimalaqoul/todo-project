@@ -1,8 +1,68 @@
-.myinfo{
-font-size: 20px;
-margin-left: 200px;
-}
-#themainheader{
-    color: rgb(212, 30, 30);   
-   font-size: 60px;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;   
    }
+.the-header{
+    background-color: gray;
+    /* overflow: hidden; */
+    display: flex;
+    height: 60px;
+}
+.images{
+width: 50px;
+height: 50px;
+margin-top: 5px;
+}
+.mainheader{
+    width: 40%;
+    margin: 20px 0 0 20px;
+}
+.navbar{
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.navbar a{
+ margin-left: 80px;
+}
+.navbar a:link{
+    text-decoration: none;
+}
+.myinfo{
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.myinfos{
+ margin: 0 0 0 50px;
+
+}
+#contact-me{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.data{
+  margin-left: 46%;
+  margin-top: 50px;
+  
+}
+form input{
+   
+        display: block;
+        width: 130px;
+    
+}
+
+footer{
+    background-color: rgb(158, 153, 153);
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin-top: 16px;
+}
