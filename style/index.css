@@ -36,15 +36,30 @@ margin-left: 80px;
 }
 table ,th ,td {
 font-size: 20px;
-width: 30%;
-height: 40%;
 border:1px solid black;
 border-collapse:collapse;
-background-color: silver;
 }   
 table{
- margin: 90px 0 20% 29%;
+ margin: 90px 0 17.5% 36%;
 }
+  
+th{
+    font-size: 25px;
+    padding: 7px;
+}
+td{
+    padding: 8px;
+}
+.status1{
+    background-color: rgb(83, 238, 69);
+}
+.status2{
+    background-color: red;
+}
+.status3{
+    background-color: rgb(67, 194, 55); 
+}
+
 
 footer{
     background-color: rgb(158, 153, 153);
