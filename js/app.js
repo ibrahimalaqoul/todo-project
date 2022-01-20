@@ -15,6 +15,6 @@ else {
     } else if (userGender.toLocaleLowerCase() === "female") 
     {
     alert("Welcome Ms "+ userName);       
-    } else { alert("welcome " + userName);
+    } else { alert("welcome ");
     } 
 }
