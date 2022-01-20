@@ -44,19 +44,18 @@ margin-top: 5px;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-    font-size: 25px;
-    margin-top: 20px;
+    font-size: 40px;
+    margin-top: 5px;
 }
-.data{
-  margin-left: 46%;
-  margin-top: 50px;
-  
+.label1{
+margin-right: 20px;
 }
-form input{
-   
-        display: block;
-        width: 130px;
-    
+    #button{
+   margin-left: 56%;
+    }
+.form1{
+    display: flex;
+    justify-content: center;
 }
 
 footer{
@@ -64,5 +63,5 @@ footer{
     display: flex;
     align-items: center;
     height: 60px;
-    margin-top: 16px;
+    margin-top: 15px;
 }
