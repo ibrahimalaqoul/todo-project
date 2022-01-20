@@ -40,15 +40,17 @@ border:1px solid black;
 border-collapse:collapse;
 }   
 table{
- margin: 90px 0 17.5% 36%;
+ margin: 90px 30% 17.5% 32%;
 }
   
 th{
     font-size: 25px;
     padding: 7px;
+    padding: 30px;
 }
 td{
     padding: 8px;
+    padding : 0 60px;
 }
 .status1{
     background-color: rgb(83, 238, 69);
@@ -57,7 +59,7 @@ td{
     background-color: red;
 }
 .status3{
-    background-color: rgb(67, 194, 55); 
+    background-color:red; 
 }
 
 
