@@ -23,11 +23,11 @@ let userAnswer1 = prompt("Are you A fiend's fan?");
 let userAnswer2 = prompt("do you like spring?");
 let userAnswer3 = prompt("do you like winter?");
 //function to push user's answers to the array.
-function theUserAnswers(array, answer1) {
-    if (answer1 != "yes" && answer1 != "no") {
+function theUserAnswers(array, answerOfUser) {
+    if (answerOfUser != "yes" && answerOfUser != "no") {
         array.push("invalid");
     } else {
-        array.push(answer1);
+        array.push(answerOfUser);
     }
 }
 theUserAnswers(myArray, userAnswer1);
